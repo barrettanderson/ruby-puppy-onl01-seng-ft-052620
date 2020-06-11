@@ -1,10 +1,7 @@
 # Add your code here
 class Dog
   attr_accessor :name
-<<<<<<< HEAD
 
-=======
->>>>>>> 6cced05412537f574d5fee9e3e1ff9cc4b314b70
   @@all = []
 
 
