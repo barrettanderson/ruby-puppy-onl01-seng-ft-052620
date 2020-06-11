@@ -19,12 +19,12 @@ class Dog
   end
 
   def self.print_all
-=======
+
     @@all << self
   end
 
   def self.all
->>>>>>> 6cced05412537f574d5fee9e3e1ff9cc4b314b70
+
     @@all.each do |dog|
       puts dog.name
     end
@@ -35,7 +35,7 @@ class Dog
     @@all << self
   end
 
-=======
+
   def self.clear_all
     @@all.clear
   end
@@ -49,6 +49,4 @@ class Dog
   # def save
   #
   # end
-
->>>>>>> 6cced05412537f574d5fee9e3e1ff9cc4b314b70
 end
